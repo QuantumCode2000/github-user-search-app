@@ -1,0 +1,94 @@
+.card-container {
+  display: flex;
+  width: 305px;
+  margin-top: 25px;
+  border-radius: 15px;
+  background-color: #1f2a48;
+  flex-direction: column;
+  align-items: center;
+  max-height: 500px;
+  min-height: 450px;
+}
+
+/* * user - data */
+.card-container .user-data {
+  /* line-height: 30px; */
+  display: flex;
+  align-items: center;
+  height: 150px;
+  width: 265px;
+  justify-content: space-between;
+}
+
+.card-container .user-data-data {
+  margin-left: 20px;
+}
+
+.card-container .user-data .user-data-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.card-container .user-data .user-data-data .user-data-github a {
+  text-decoration: none;
+  color: #0079ff;
+  font-size: 14px;
+}
+
+.card-container .user-data .user-data-data .user-data-init {
+}
+.card-container .user-data .user-data-data .user-data-init {
+  color: white;
+  font-size: 14px;
+}
+.card-container .user-data .user-data-data .user-data-name {
+  color: white;
+  font-size: 16px;
+}
+
+/* * user - bio */
+
+.card-container .user-bio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 265px;
+  font-size: 13px;
+  color: white;
+}
+/* * user - work */
+.card-container .user-work {
+  display: flex;
+  border-radius: 10px;
+  background-color: #141c2f;
+  font-size: 12px;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 265px;
+  color: white;
+}
+.card-container .user-work div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container .user-work .user-work-dates div:last-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* * user - network */
+.card-container .user-network {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  height: 70px;
+  width: 265px;
+  color: white;
+  font-size: 13px;
+  opacity: 0.5;
+  line-height: 30px;
+}
